@@ -4773,7 +4773,7 @@ Url: ${St(t)}`),
             Ma({
                 dsn: "https://17d03841e2244d53abdbe587434efd5c@glitchtip.celeswuff.science/1"
             });
-            document.getElementById("version").innerText = " · v2.1.4";
+            document.getElementById("version").innerText = "";
             navigator.bluetooth || (document.querySelector(".supported").style.display = "none",
             document.querySelector(".unsupported").style.display = "block");
             Kn() && (document.querySelector(".supported").style.display = "none",
@@ -5352,16 +5352,13 @@ Url: ${St(t)}`),
 			
 			    <div id="servicesContainer">
 			        <div style="text-align: center; color: #5f7f9e; padding: 20px 0;">
-			            ⚡ 点击「扫描并连接」选择蓝牙设备<br>连接后将在此处显示服务与特征
+			            ⚡ 点击「扫描并连接」选择蓝牙设备
 			        </div>
 			    </div>
-			    <div class="footnote">💡 支持标准BLE设备，连接后可向可写特征发送数据。</div>
-			</div>
+			    
+		
 			
-			<div class="log-area" id="logPanel">
-			    > 就绪。蓝牙设备管理区已移至“未连接”下方。<br>
-			    > 需要 HTTPS 或 localhost 环境。
-			</div>
+			
 			
            <!-- <p id="device-name" style="margin-top:10px;margin-bottom:10px">未连接</p> -->
         </div>
